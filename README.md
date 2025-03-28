@@ -1,3 +1,41 @@
+## EmployWise - User Management App
+
+## Overview
+
+EmployWise is a React application that integrates with the Reqres API to perform basic user management functions. The application includes authentication, user listing with pagination, and edit/delete functionality.
+
+## Features
+
+User Authentication: Login with credentials and store the token in localStorage.
+
+User List: Fetch and display a paginated list of users.
+
+Edit User: Update user details (first name, last name, and email).
+
+Delete User: Remove users from the list.
+
+Logout Functionality: Secure logout mechanism.
+
+## Technologies Used
+
+React (Frontend Framework)
+
+React Router (Navigation)
+
+Axios (HTTP Requests)
+
+Tailwind CSS (Styling)
+
+## API Endpoints Used
+
+Login: POST /api/login
+
+Get Users: GET /api/users?page=1
+
+Update User: PUT /api/users/{id}
+
+Delete User: DELETE /api/users/{id}
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
